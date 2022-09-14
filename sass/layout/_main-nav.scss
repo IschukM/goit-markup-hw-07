@@ -1,0 +1,12 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav--site-nav{
+  margin-left: 93px;
+}
+
+.current {
+  color: var(--accent-color);
+}
