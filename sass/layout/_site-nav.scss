@@ -1,6 +1,7 @@
 .site-nav {
   display: flex;
-  
+    margin-left: 93px;
+
 }
 
 .site-nav__item + .site-nav__item {
@@ -30,7 +31,7 @@
   position: relative;
 }
 
-.site-nav__line::after {
+.site-nav__link--active::after {
   position: absolute;
   display: block;
   content: '';
@@ -39,4 +40,8 @@
   background-color: var(--accent-color);
   margin-top: 28px;
   border-radius: 2px;
+}
+
+.current {
+  color: var(--accent-color);
 }

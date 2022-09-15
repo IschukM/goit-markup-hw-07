@@ -6,12 +6,10 @@
   font-size: 26px;
   line-height: 1.2;
 }
-.logo__text {
+.logo__start {
   color: var(--accent-color);
 }
 
-.footer .logo {
+.logo__end{
   color: var(--primery-bg-color);
-  display: block;
-  margin-bottom: 20px;
 }

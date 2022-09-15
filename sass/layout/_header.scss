@@ -2,8 +2,14 @@
   
   border-bottom: 1px solid #ececec;
 }
-.header--conteiner{
+.header__container{
   display: flex;
   align-items: center; 
 
 }
+
+.header__main-nav {
+  display: flex;
+  align-items: center;
+}
+

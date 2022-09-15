@@ -3,7 +3,17 @@
   align-items: baseline;
 }
 
+.footer {
+  background-color: var(--hyro-bg-color);
 
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+}
 
 .futer-social-text {
   color: var(--primery-bg-color);
@@ -45,49 +55,11 @@
   margin-left: 70px;
 }
 
-.footer {
-  background-color: var(--hyro-bg-color);
-
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-
-.address-item + .address-item {
-  margin-top: 9px;
-}
-
-.address .link {
-  color: rgba(255, 255, 255, 0.6);
-
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.address .text:hover,
-.address .text:hover {
-  color: var(--accent-color);
-}
-
-.address .text {
-  color: var(--primery-bg-color);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.address .link:hover,
-.address .link:hover {
-  color: var(--accent-color);
-}
-
 .futer-subscription {
   margin-left: auto;
 }
 
-.futer-subscription-text {
+.futer-subscription__text {
   font-weight: 700;
 
   line-height: 1.14;
@@ -97,12 +69,12 @@
   margin-bottom: 20px;
 }
 
-.futer-subscription-field {
+.futer-subscription__field {
   display: flex;
   gap: 12px;
 }
 
-.futer-subscription-email {
+.futer-subscription__email {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -113,13 +85,13 @@
   background-color: var(--hyro-bg-color);
   color: rgba(255, 255, 255, 0.6);
 }
-.futer-subscription-button {
+.futer-subscription__button {
   position: relative;
 
   padding: 10px 62px 10px 18px;
 }
 
-.futer-subscription-icon {
+.futer-subscription__icon {
   position: absolute;
   top: 13px;
   right: 28px;
