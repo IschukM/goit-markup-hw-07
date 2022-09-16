@@ -18,7 +18,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css1/styles.css" />
+
     <title>Студія</title>
   </head>
 
@@ -374,11 +374,11 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer__container">
         <div>
           <a href="./index.html" class="logo logo__end_color_white footer__logo link">
             <span class="logo__start">Web</span>
-            <span class="logo__end">Studio</span>
+            <span>Studio</span>
           </a>
           <address class="footer-address">
             <ul class="list">
@@ -405,32 +405,32 @@
         </div>
 
         <div class="futer-social">
-          <p class="futer-social-text">приєднуйтесь</p>
-          <ul class="futer-social-list list">
+          <p class="futer-social__text">приєднуйтесь</p>
+          <ul class="futer-social__list list">
             <li>
-              <a class="futer-social-link" href="#">
-                <svg class="futer-social-icon" width="20px" height="20px">
+              <a class="futer-social__link" href="#">
+                <svg class="futer-social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="futer-social-link" href="#">
-                <svg class="futer-social-icon" width="20px" height="20px">
+              <a class="futer-social__link" href="#">
+                <svg class="futer-social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="futer-social-link" href="#">
-                <svg class="futer-social-icon" width="20px" height="20px">
+              <a class="futer-social__link" href="#">
+                <svg class="futer-social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a class="futer-social-link" href="#">
-                <svg class="futer-social-icon" width="20px" height="20px">
+              <a class="futer-social__link" href="#">
+                <svg class="futer-social__icon" width="20px" height="20px">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -465,7 +465,7 @@
         <form class="form">
           <p class="form__title">Залиште свої дані, ми вам передзвонимо</p>
           <div class="form__field">
-            <label for="name" class="form-label">Ім'я</label>
+            <label for="name" class="form__label">Ім'я</label>
             <div class="form__input-wrap">
               <input class="form__input" type="text" name="name" id="name" required />
               <svg class="form__icon">
@@ -474,7 +474,7 @@
             </div>
           </div>
           <div class="form__field">
-            <label for="tel" class="form-label">Телефон</label>
+            <label for="tel" class="form__label">Телефон</label>
 
             <div class="form__input-wrap">
               <input class="form__input" type="tel" name="tel" id="tel" required />
@@ -484,7 +484,7 @@
             </div>
           </div>
           <div class="form__field">
-            <label for="mail" class="form-label">Пошта</label>
+            <label for="mail" class="form__label">Пошта</label>
             <div class="form__input-wrap">
               <input class="form__input" type="email" name="mail" id="mail" required />
               <svg class="form__icon">
@@ -493,7 +493,7 @@
             </div>
           </div>
           <div class="form__field form__comment">
-            <label for="comment" class="form-label">Коментар</label>
+            <label for="comment" class="form__label">Коментар</label>
             <textarea
               class="form__comment-text"
               name="comment"
@@ -501,12 +501,17 @@
               placeholder="Введіть текст"
             ></textarea>
           </div>
-          <label class="checkbox-label">
-            <input class="checkbox visually-hidden" type="checkbox" name="checkbox" required />
-            <span class="checkbox-icon"> </span>
+          <label class="checkbox__label">
+            <input
+              class="checkbox__input visually-hidden"
+              type="checkbox"
+              name="checkbox"
+              required
+            />
+            <span class="checkbox__icon"> </span>
             <span class="checkbox-text"
               >Погоджуюся з розсилкою та приймаю
-              <a class="checkbox-link" href="#" target="_blank" rel="noopener noreferrer"
+              <a class="checkbox__link" href="#" target="_blank" rel="noopener noreferrer"
                 >Умови договору</a
               >
             </span>
@@ -515,7 +520,7 @@
         </form>
 
         <button data-modal-close class="button-close">
-          <svg class="button-close-icon" width="30" height="30">
+          <svg class="button-close__icon" width="30" height="30">
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
