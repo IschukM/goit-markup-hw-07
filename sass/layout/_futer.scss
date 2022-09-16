@@ -21,10 +21,7 @@
 
 .futer-social__text {
   color: var(--primery-bg-color);
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 1.14);
 
   margin-bottom: 20px;
 
