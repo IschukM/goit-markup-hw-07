@@ -13,7 +13,7 @@
   --icon-color: #afb1b8;
 }
 
-.futer-social__link, .work__item, .work__overlay {
+.futer-social__link, .work__overlay {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,6 +335,15 @@ body {
 
 .work__item {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .work__item + .work__item {
   margin-left: 30px;

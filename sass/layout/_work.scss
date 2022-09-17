@@ -22,8 +22,10 @@
 }
 
 .work__item {
-  @extend %align;
   position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 
   & + & {
     margin-left: 30px;
